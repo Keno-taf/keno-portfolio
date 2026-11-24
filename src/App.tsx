@@ -108,18 +108,15 @@ function App() {
 </div>
 
             <div className="mt-12 flex flex-wrap gap-10 border-t border-white/10 pt-8">
-              <div>
-                <h3 className="text-2xl font-bold text-cyan-400">3.76</h3>
-                <p className="mt-1 text-sm text-slate-400">University CGPA</p>
-              </div>
+              
 
               <div>
                 <h3 className="text-2xl font-bold text-cyan-400">BSc</h3>
-                <p className="mt-1 text-sm text-slate-400">Computer Science</p>
+                <p className="mt-1 text-sm text-slate-400">Computer Science and Engineering, Bule Hora Univeristy</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-cyan-400">AI</h3>
+                <h3 className="text-2xl font-bold text-cyan-400">Programming and AI</h3>
                 <p className="mt-1 text-sm text-slate-400">Technology Interest</p>
               </div>
             </div>
@@ -132,11 +129,15 @@ function App() {
             <div className="absolute h-60 w-60 rounded-full border border-blue-400/20 sm:h-80 sm:w-80" />
             <div className="absolute h-48 w-48 rounded-full bg-cyan-500/10 blur-3xl" />
 
-            <div className="relative flex h-48 w-48 items-center justify-center rounded-full border border-cyan-300/30 bg-gradient-to-br from-cyan-400/20 to-blue-600/20 shadow-[0_0_80px_rgba(34,211,238,0.15)]">
-              <span className="text-8xl font-black text-cyan-300">
-                K.
-              </span>
-            </div>
+            
+<div className="relative h-48 w-48 overflow-hidden rounded-full border-2 border-cyan-300/40 shadow-2xl shadow-cyan-500/20 sm:h-56 sm:w-56">
+  <img
+    src="/profile.png"
+    alt="Keno - Software Developer"
+    className="h-full w-full rounded-full object-cover object-top"
+  />
+</div>
+
 
             <div className="absolute left-0 top-16 rounded-xl border border-white/10 bg-[#142a42] px-5 py-3 text-sm text-cyan-200 shadow-xl">
               &lt;/&gt; Software
@@ -179,8 +180,7 @@ function App() {
       </p>
 
       <p className="mt-5 leading-8 text-slate-300">
-        I currently work as a Junior Software Developer and
-        System Improvement Officer at the Ethiopian Federal
+        I currently work as a Junior Software Developer at the Ethiopian Federal
         Civil Service Commission, contributing to the development,
         maintenance, and improvement of organizational systems.
       </p>
@@ -217,25 +217,6 @@ function App() {
           Bule Hora University
         </p>
 
-        <div className="mt-6 flex flex-wrap gap-8">
-          <div>
-            <p className="text-3xl font-bold text-cyan-400">
-              3.76
-            </p>
-            <p className="mt-1 text-sm text-slate-400">
-              CGPA
-            </p>
-          </div>
-
-          <div>
-            <p className="text-3xl font-bold text-cyan-400">
-              67/100
-            </p>
-            <p className="mt-1 text-sm text-slate-400">
-              Exit Exam
-            </p>
-          </div>
-        </div>
       </div>
 
       <div className="rounded-2xl border border-white/10 bg-[#102238] p-8 transition hover:border-cyan-400/40">
@@ -392,14 +373,14 @@ function App() {
             </span>
           ))}
         </div>
-<a
-  href="https://github.com/Keno-taf/RoomReservationSystem"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="mt-7 inline-block font-semibold text-cyan-400 hover:text-cyan-300"
+                <a
+                  href="https://github.com/Keno-taf/RoomReservationSystem"
+                  target="_blank"
+                   rel="noopener noreferrer"
+                  className="mt-7 inline-block font-semibold text-cyan-400 hover:text-cyan-300"
 >
-  View Source Code on GitHub →
-</a>
+                  View Source Code on GitHub →
+                </a>
       </div>
 
       {/* Project 2 */}
@@ -436,73 +417,9 @@ function App() {
         </a>
       </div>
 
-      {/* Project 3 */}
-      <div className="group rounded-2xl border border-white/10 bg-[#102238] p-7 transition duration-300 hover:-translate-y-2 hover:border-cyan-400/50">
+      
 
-        <div className="mb-6 flex h-48 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-900/60 to-cyan-900/40">
-          <span className="text-6xl">🔊</span>
-        </div>
-
-        <p className="mb-3 text-xs font-bold tracking-widest text-cyan-400">
-          ARTIFICIAL INTELLIGENCE
-        </p>
-
-        <h3 className="text-2xl font-bold">
-          Text-to-Audio Application
-        </h3>
-
-        <p className="mt-4 leading-7 text-slate-400">
-          An AI-related application that converts written
-          text into audio, exploring speech synthesis
-          and accessible digital communication.
-        </p>
-
-        <div className="mt-6 flex flex-wrap gap-2">
-          {["Python", "Artificial Intelligence", "Text Processing"].map(skill => (
-            <span key={skill} className="rounded-full border border-cyan-400/20 bg-cyan-400/5 px-3 py-1 text-xs text-cyan-300">
-              {skill}
-            </span>
-          ))}
-        </div>
-
-        <a href="#contact" className="mt-7 inline-block font-semibold text-cyan-400 hover:text-cyan-300">
-          Project Details →
-        </a>
-      </div>
-
-      {/* Project 4 */}
-      <div className="group rounded-2xl border border-white/10 bg-[#102238] p-7 transition duration-300 hover:-translate-y-2 hover:border-cyan-400/50">
-
-        <div className="mb-6 flex h-48 items-center justify-center rounded-xl bg-gradient-to-br from-orange-900/60 to-pink-900/40">
-          <span className="text-6xl">🎙️</span>
-        </div>
-
-        <p className="mb-3 text-xs font-bold tracking-widest text-cyan-400">
-          ARTIFICIAL INTELLIGENCE
-        </p>
-
-        <h3 className="text-2xl font-bold">
-          Audio-to-Text Application
-        </h3>
-
-        <p className="mt-4 leading-7 text-slate-400">
-          An application that converts audio input into
-          written text, exploring speech recognition
-          and automated transcription.
-        </p>
-
-        <div className="mt-6 flex flex-wrap gap-2">
-          {["Python", "AI", "Speech Recognition"].map(skill => (
-            <span key={skill} className="rounded-full border border-cyan-400/20 bg-cyan-400/5 px-3 py-1 text-xs text-cyan-300">
-              {skill}
-            </span>
-          ))}
-        </div>
-
-        <a href="#contact" className="mt-7 inline-block font-semibold text-cyan-400 hover:text-cyan-300">
-          Project Details →
-        </a>
-      </div>
+      
 
     </div>
   </div>
@@ -535,7 +452,7 @@ function App() {
         </div>
 
         <h3 className="text-xl font-bold text-white md:text-2xl">
-          Junior Software Developer and System Improvement Officer
+          Junior Software Developer
         </h3>
 
         <p className="mt-2 font-medium text-cyan-400">
